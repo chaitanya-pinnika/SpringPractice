@@ -1,5 +1,8 @@
 package com.chaitanya.models;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Book {
 	String name;
 	public String getName() {
