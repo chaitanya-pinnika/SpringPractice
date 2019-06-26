@@ -12,6 +12,8 @@ public class BookPrinterApplication {
 		ConfigurableApplicationContext context=SpringApplication.run(BookPrinterApplication.class, args);
 		
 		Book book = (Book) context.getBean(Book.class);
+		book.setBid(123);
+		book.setName("Head First Java");
 		System.out.println(book);
 		
 	}
