@@ -3,15 +3,17 @@ package com.chaitanya.greeting;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class Greeting {
 	
 	
-	@RequestMapping("/sayHello")
-	public String sayHello(Model model)
+	@RequestMapping("hello")
+	@ResponseBody()
+	public String sayHello()
 	{
-		return "Hello There";
+		return "Hello";
 	}
 	
 	
