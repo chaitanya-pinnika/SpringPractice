@@ -1,4 +1,4 @@
-package com.chaitanya.BookPrinter;
+package com.chaitanya.BookPrinter.models;
 
 import org.springframework.stereotype.Component;
 

@@ -5,6 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import com.chaitanya.BookPrinter.models.Book;
+
 @SpringBootApplication
 public class BookPrinterApplication {
 	
