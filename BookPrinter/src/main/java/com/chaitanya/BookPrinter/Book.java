@@ -4,7 +4,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Book {
-	String name;
+	private String name;
+	
 	public String getName() {
 		return name;
 	}
