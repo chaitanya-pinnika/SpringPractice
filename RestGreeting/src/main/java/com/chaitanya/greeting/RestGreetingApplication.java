@@ -8,6 +8,7 @@ public class RestGreetingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestGreetingApplication.class, args);
+		// This application is just to know how we can implement rest using springboot
 	}
 
 }
