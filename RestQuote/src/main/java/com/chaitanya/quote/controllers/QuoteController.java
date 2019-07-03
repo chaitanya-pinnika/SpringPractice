@@ -1,4 +1,4 @@
-package com.chaitanya.quote.Controllers;
+package com.chaitanya.quote.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
