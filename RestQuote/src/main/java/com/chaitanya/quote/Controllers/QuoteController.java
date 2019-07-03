@@ -15,14 +15,15 @@ public class QuoteController {
 
 	@RequestMapping("/getQuote")
 	public String getQuote(Model model) {
+		System.out.println("Executing getQuote");
 		model.addAttribute("quoteobj",quote.toString());
 		return "randomquote";
-		
 	}
 	
 	@ModelAttribute
 	public void grabQuote()
 	{
+		System.out.println("Executing grabQuote");
 		RestTemplate rest = new RestTemplate();
 		quote = rest.getForObject("https://gturnquist-quoters.cfapps.io/api/random", Quote.class);
 		
