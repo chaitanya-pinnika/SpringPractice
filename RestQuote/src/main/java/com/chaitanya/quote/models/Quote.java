@@ -8,7 +8,7 @@ public class Quote {
 	private String type;
 	@Override
 	public String toString() {
-		return "Quote [type=" + type + ", value=" + value + "]";
+		return value.toString();
 	}
 	private Value value;
 	public String getType() {

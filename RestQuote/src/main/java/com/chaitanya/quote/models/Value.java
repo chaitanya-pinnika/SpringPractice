@@ -8,7 +8,7 @@ public class Value {
 	private String quote;
 	@Override
 	public String toString() {
-		return "Value [id=" + id + ", quote=" + quote + "]";
+		return quote;
 	}
 	public int getId() {
 		return id;
