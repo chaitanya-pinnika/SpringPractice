@@ -19,7 +19,7 @@ public class KafkaConsumer {
 	@Autowired
 	private SaveRecords saveRecords; 
 	
-	  @KafkaListener(topics = "test_json",groupId="group_json")
+	  @KafkaListener(topics = "test_json",groupId="json_group")
 	    public void consume(User user) {
 		  	saveRecords.incrementConsumedCount();
 	        System.out.println("Consumed message: " + user);
